@@ -1,0 +1,141 @@
+{
+  "title": "I'm Kai Ching Suen",
+  "description": "Self-motivated college student with active learning and leadership skills. Flexible and highly organized with working experiencence in range of fields. Enthusiastic to learn and very independent.",
+  "home": "HOME",
+  "about": "ABOUT",
+  "resume": "RESUME",
+  "portfolio": "PORTFOLIO",
+  "contact": "CONTACT",
+
+  "about_title": "About Me",
+  "about_description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+  "contact_title": "Contact Details",
+  "name": "Kai Ching Suen",
+  "download_resume": "Download Resume",
+  "resume_link": "kaichingsuen_resume.pdf",
+  "address1": "1600 Amphitheatre Parkway",
+  "address2": "Mountain View, CA 94043 US",
+  "phone": "(123)456-7890",
+  "mail": "anyone@website.com",
+
+  "education_title": "Education",
+  "education_content": [
+    {
+      "school": "Stony Brook University",
+      "content": {
+        "degree": "Bachelor in College of Engineering and Applied Sciences",
+        "date_from": "08-2017",
+        "date_to": "Anticipated graducation 12-2019",
+        "description": "Dean list (Fall 2017 - Fall 2018)"
+      }
+    },
+    {
+      "school": "Tompkins Cortland Community College",
+      "content": {
+        "degree": "Associate Science degree in Computer Science (Engineering Sequence)",
+        "date_from": "08-2015",
+        "date_to": "05-2017",
+        "description": "Member of Phi Theta Kappa (2016 - 2017) Member of Residence Hall Association (2015 – 2016 ) Member of Resident Selection and Training Committee (2016)"
+      }
+    }
+  ],
+
+  "work_title": "Work",
+  "work_content": [
+    {
+      "company": "Invest Bots Limited",
+      "content": {
+        "position": "Partime Software Engineer & Software Engineer Intern",
+        "date_from": "05-2018",
+        "date_to": "Present",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam."
+      }
+    },
+    {
+      "company": "Towngas - The Hong Kong and China Gas Company",
+      "content": {
+        "position": "IT Trainee",
+        "date_from": "07-2018",
+        "date_to": "08-2018",
+        "description": "Developed and built Internal chatbot infrastructure using machine learning with web crawling. Developed several Alexa skills by using programming languages like nodejs and python along with AWS services like AWS Lambda and AWS IoT and with RaspberryPi. Developed Andriod app for demoing Estimote Beacon use cases. Held several sections of sharings for IoT development and chatbot development"
+      }
+    },
+    {
+      "company": "Twitchy Finger Limited",
+      "content": {
+        "position": "Summer Intern",
+        "date_from": "06-2018",
+        "date_to": "08-2018",
+        "description": "Assisted lead developers in developing mobile game, Be A Man: Do The Right Thing by using game engine Unity with C# and playmaker. Cooperate visual and hearing effects and create Animation by using game engine Unity 2D."
+      }
+    },
+    {
+      "company": "Tompkins Cortland Community College - Residence Life",
+      "content": {
+        "position": "Resident Assistant",
+        "date_from": "01-2016",
+        "date_to": "05-2017",
+        "description": "Enforce housing policies and assisting resident needs. Create a safe and active environment for residents that from different background. Rated Averagely 4.5/5 in Adjusting Position, Reliability and Representation for the Department and the Position. (2016 - 2017)"
+      }
+    },
+    {
+      "company": "Tompkins Cortland Community College - Academic Success",
+      "content": {
+        "position": "Math and Computer Science Tutor",
+        "date_from": "01-2016",
+        "date_to": "01-2017",
+        "description": "Assist students with academic needs including counseling and tutoring."
+      }
+    },
+    {
+      "company": "Tompkins Cortland Community College - Global Connection",
+      "content": {
+        "position": "Office Assistant",
+        "date_from": "06-2017",
+        "date_to": "08-2017",
+        "description": "Assist international students in the process of exploring and identifying their identities. Eliminate the gap between locals and international students within campus and society; Plan and Organize activities."
+      }
+    }
+  ],
+  "skill_title": "Technical Skills",
+  "skill_content": {
+    "Languages": ["Java", "JavaScript", "Perl", "Python"],
+    "Frameworks": ["AngularJs", "JSP", "Jade", "Nodejs", "ReactJs", "Spring"],
+    "Databases": ["Redis", "MongoDB", "MySQL", "Neo4j"],
+    "Others": ["HTML5", "css"]
+  },
+  "skill_description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+  "contact_title": "Contact Details.",
+
+  "work_details_title": "work details",
+  "work_details_content": [
+    {
+      "company": "Invest Bot Limited",
+      "id": "invbots",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      "link": "https://www.invbots.com/",
+      "tag": "Fintech"
+    },
+    {
+      "company": "The Hong Kong and China Gas Comapny Ltd.",
+      "id": "towngas",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      "link": "https://www.towngas.com/en/home",
+      "tag": "Provider"
+    },
+    {
+      "company": "Twitchy Fingers Ltd.",
+      "id": "twitchyfinger",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      "link": "https://www.twitchyfinger.com/",
+      "tag": "Game Developemnt"
+    },
+    {
+      "company": "Tompkins Cortland Community College",
+      "id": "tc3",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      "link": "https://www.tompkinscortland.edu/sites/default/files/documents/Updated%20Resident%20Assistant%20Position%20Description%20.pdf",
+      "tag": "Education"
+    }
+  ]
+}
