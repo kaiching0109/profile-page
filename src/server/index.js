@@ -12,6 +12,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static("dist"));
 // app.use(express.static(__dirname + "/public"));
 
+app.get("/hellworld", (req, res) => {
+  res.status(200).send("HELLO");
+});
+
 app.post("/api/mail", (req, res) => {
   const {
     contactName,
