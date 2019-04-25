@@ -67,6 +67,6 @@ app.post("/api/mail", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT || 3000, () =>
-  console.log(`Listening on port ${process.env.PORT || 3000}!`)
+app.listen(process.env.PORT || 8080, () =>
+  console.log(`Listening on port ${process.env.PORT || 8080}!`)
 );
