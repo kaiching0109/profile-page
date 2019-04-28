@@ -1,6 +1,6 @@
 {
-  "title": "スン・カイ・チンです",
-  "description": "私の強みは強い行動力と様々な環境に対しての迅速な対応力です。",
+  "title": "スン・カイ・チン",
+  "description": "大学生 & フルスタックエンジニア",
   "description_detail": "I use...!",
   "home": "ホーム",
   "about": "私に関して",
@@ -179,5 +179,8 @@
       "link": "https://www.tompkinscortland.edu/sites/default/files/documents/Updated%20Resident%20Assistant%20Position%20Description%20.pdf",
       "tag": "Education"
     }
-  ]
+  ],
+  "contactus": {
+    "description": "If you wanna get in touch, learn more about my experiences and my work, please fill up the form below and I will get back to you within a few days! Thanks for taking the time to reach out!"
+  }
 }

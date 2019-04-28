@@ -6,12 +6,13 @@ import About from "../about/about";
 import Resume from "../resume/resume";
 import Portfolio from "../portfolio/portfolio";
 import Contact from "../contact/contact";
+import Footer from "../footer/footer";
 
 export default class SiteBuilder extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      language: "jp"
+      language: "en"
     };
   }
 
@@ -39,6 +40,7 @@ export default class SiteBuilder extends Component {
         <Resume language={language} />
         <Portfolio language={language} />
         <Contact language={language} />
+        <Footer language={language} />
       </React.Fragment>
     );
   }
