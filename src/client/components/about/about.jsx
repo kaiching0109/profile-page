@@ -8,6 +8,7 @@ const About = props => {
     name,
     address1,
     address2,
+    address3,
     phone,
     mail,
     download_resume,
@@ -35,6 +36,8 @@ const About = props => {
                   {address1}
                   <br />
                   {address2}
+                  <br />
+                  {address3}
                 </span>
                 <br />
                 <span>{phone}</span>

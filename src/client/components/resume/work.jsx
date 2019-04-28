@@ -1,20 +1,20 @@
 import React from "react";
+import TagsRow from "./tags/tags";
 
 const Work = props => {
   let { work_title, work_content } = props.content;
   work_content = Object.keys(work_content).map((key, j) => {
     return [...Array(work_content[key])].map((values, i) => {
       const { company, content } = values;
-      const { position, date_from, date_to, description } = content;
+      const { position, date_from, date_to, descriptions } = content;
       return (
         <div className="row item" key={`${company}-${i}`}>
           <div className="twelve columns">
             <h3>{company}</h3>
-            <p className="info">
-              {position} <span>&bull;</span>{" "}
-              <em className="date">{`${date_from}-${date_to}`}</em>
-            </p>
-            <p>{description}</p>
+            <p className="info">{position}</p>
+            <p className="info">{`${date_from}-${date_to}`}</p>
+            <TagsRow descriptions={descriptions} />
+            <br />
           </div>
         </div>
       );

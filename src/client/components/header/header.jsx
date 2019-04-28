@@ -44,6 +44,7 @@ export default class Header extends Component {
                 {this.props.language.title}
               </h1>
               <h3> {this.props.language.description}.</h3>
+              <h3>{this.props.language.description_detail}</h3>
               <hr />
               <Socialbar items={socialbar} language={this.props.language} />
             </div>
