@@ -63,8 +63,7 @@ app.post("/api/mail", (req, res) => {
         console.log("Message sent: %s", info);
         console.log("Message URL: %s", nodemailer.getTestMessageUrl(info));
         res.status(200).json({
-          message:
-            "Thank you for contacting! You will be contacted within 1-2 bussiness day(s)."
+          message: "Success!"
         });
       }
     });

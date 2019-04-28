@@ -36,7 +36,7 @@
         "degree": "Associate Science degree in Computer Science (Engineering Sequence)",
         "date_from": "08-2015",
         "date_to": "05-2017",
-        "description": "Member of Phi Theta Kappa (2016 - 2017) Member of Residence Hall Association (2015 – 2016 ) Member of Resident Selection and Training Committee (2016)"
+        "description": "Member of Phi Theta Kappa (2016 - 2017) Member of Residence Hall Association (2015 – 2016) Member of Resident Selection and Training Committee (2016)"
       }
     }
   ],
@@ -184,6 +184,16 @@
     }
   ],
   "contactus": {
+    "header": "Get In Touch.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "response": "Thank you for contacting! You will be contacted within 1-2 bussiness day(s)",
+    "mandotory": "You have to fill in all the mandotory fields.",
+    "error": "Somthing went wrong.. Please contact the admin kaiching0109@gmail.com for further assistence.",
+    "success": "Your message was sent, thank you!",
+    "submit": "Submit",
     "description": "If you wanna get in touch, learn more about my experiences and my work, please fill up the form below and I will get back to you within a few days! Thanks for taking the time to reach out!"
   }
 }

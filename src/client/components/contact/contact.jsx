@@ -24,9 +24,21 @@ export default class Contact extends Component {
       contactSubject,
       contactMessage
     } = this.state;
+    const {
+      header,
+      name,
+      email,
+      subject,
+      message,
+      response,
+      mandotory,
+      error,
+      success,
+      description
+    } = this.props.language.contactus;
     console.log(contactName, contactEmail, contactSubject, contactMessage);
     if (contactName === "" || contactEmail === "" || contactMessage === "") {
-      alert("You have to fill in all the mandotory fields");
+      alert(mandotory);
     } else {
       axios
         .post("/api/mail", {
@@ -39,6 +51,7 @@ export default class Contact extends Component {
           if (response) {
             const { err, message } = response.data;
             if (err) message = err;
+            if (message) message = response;
             alert(message);
             this.setState({
               contactName: "",
@@ -46,10 +59,7 @@ export default class Contact extends Component {
               contactSubject: "",
               contactMessage: ""
             });
-          } else
-            alert(
-              "Somthing went wrong.. Please contact the admin kaiching0109@gmail.com for further assistence."
-            );
+          } else alert(error);
         })
         .catch(err => {
           alert(err);
@@ -58,13 +68,25 @@ export default class Contact extends Component {
   };
 
   render() {
-    const { description } = this.props.language.contactus;
+    const {
+      header,
+      name,
+      email,
+      subject,
+      message,
+      response,
+      mandotory,
+      error,
+      success,
+      submit,
+      description
+    } = this.props.language.contactus;
     return (
       <section id="contact">
         <div className="row section-head">
           <div className="two columns header-col">
             <h1>
-              <span>Get In Touch.</span>
+              <span>{header}</span>
             </h1>
           </div>
 
@@ -79,7 +101,7 @@ export default class Contact extends Component {
               <fieldset>
                 <div>
                   <label htmlFor="contactName">
-                    Name <span className="required">*</span>
+                    {name} <span className="required">*</span>
                   </label>
                   <input
                     type="text"
@@ -94,7 +116,7 @@ export default class Contact extends Component {
 
                 <div>
                   <label htmlFor="contactEmail">
-                    Email <span className="required">*</span>
+                    {email} <span className="required">*</span>
                   </label>
                   <input
                     type="email"
@@ -107,7 +129,7 @@ export default class Contact extends Component {
                 </div>
 
                 <div>
-                  <label htmlFor="contactSubject">Subject</label>
+                  <label htmlFor="contactSubject">{subject}</label>
                   <input
                     type="text"
                     size="35"
@@ -120,7 +142,7 @@ export default class Contact extends Component {
 
                 <div>
                   <label htmlFor="contactMessage">
-                    Message <span className="required">*</span>
+                    {message} <span className="required">*</span>
                   </label>
                   <textarea
                     cols="50"
@@ -134,7 +156,7 @@ export default class Contact extends Component {
 
                 <div>
                   <button className="submit" onClick={this.handleSubmit}>
-                    Submit
+                    {submit}
                   </button>
                   <span id="image-loader">
                     <img alt="" src="images/loader.gif" />
@@ -143,11 +165,11 @@ export default class Contact extends Component {
               </fieldset>
             </form>
 
-            <div id="message-warning"> Error boy</div>
+            <div id="message-warning"> {error}</div>
 
             <div id="message-success">
               <i className="fa fa-check" />
-              Your message was sent, thank you!
+              {success}
               <br />
             </div>
           </div>
